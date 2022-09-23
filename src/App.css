@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Titillium Web';, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .images{
   display: flex;
@@ -25,4 +25,30 @@
 .image img{
   display: block;
   width: 100%;
+}
+
+.pagination{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.pagination .page-num{
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.pagination .page-num:hover{
+  background-color: #5AB1BB;
+  color: #fff;
+}
+.pagination .active{
+  background-color: #5AB1BB;
+  color: #fff;
 }
